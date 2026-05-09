@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://CRYPTO-DASHBOARD-BACKEND.vercel.app/api/$1"
+    }
+  ]
+}
