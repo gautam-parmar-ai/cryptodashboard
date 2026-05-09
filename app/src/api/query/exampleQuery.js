@@ -1,5 +1,6 @@
 import Axios from "../axios";
 
+//fetch example
 export const fetchExample = async () => {
   try {
     const { data } = Axios.get("/");
